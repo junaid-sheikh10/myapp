@@ -7,6 +7,8 @@ ClickEvent(){
 }
 
   render() {
+
+    const numbers = this.props.numbers;
     return (
       <button onClick={this.ClickEvent}>click button 2</button>
       

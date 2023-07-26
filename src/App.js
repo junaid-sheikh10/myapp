@@ -19,6 +19,7 @@ function test2(){
 
 class App extends React.Component{
   render(){
+    const numbers = [9,8,7,6]
     return (
       <div className='App'>
         <Header n='anuj'> 
@@ -26,10 +27,10 @@ class App extends React.Component{
         
         </Header>
         
-      <CHeader name='junn' last='sheikh'/> 
+      <CHeader name='junn' last='sheikh' numbers={numbers}/> 
       <Channel/> 
       <FunctionClick/>
-      <CFunctionClick/>
+      <CFunctionClick />
       </div> 
     )
     
